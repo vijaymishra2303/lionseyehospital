@@ -1,0 +1,348 @@
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 992px) {
+ .aboutHos::before {
+    content: url(../images/bef.png);
+    position: absolute;
+    top: 0;
+    left: 10px;}
+  .whoWe::before {
+    content: url("../images/bef.png");
+    position: absolute;
+    top: 0;
+    left: 10px;
+  }
+  .direcTor:before {
+    content: url("../images/bef.png");
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .myHeader .headerOne .myNav ul .SubMenu .megaMenu {
+    min-width: 220px;
+    box-shadow: rgb(0 0 0 / 5%) 0 9px 20px 1px;
+    background: var(--main-color);
+    left: 0px;
+    display: block;
+    padding: 30px;
+    z-index: 999999;
+    opacity: 0;
+    visibility: hidden;
+    top: 100px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    width: 100%;
+    transition: all 0.5s ease 0s !important;
+    width: fit-content;
+  }
+
+  .openMenu {
+    display: none;
+  }
+
+  .closeMe {
+    display: none;
+  }
+
+  .myHeader .headerOne .myNav ul .SubMenu:hover > .megaMenu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .whoWe .ourText p{padding: 0;}
+  .ourLeader .teamGrid{
+    grid-template-columns: repeat(2, 2fr);
+}
+  .myHeader .headerOne .myNav ul .SubMenu > a::before {
+    right: 0px;
+  }
+  .myHeader .headerOne .myNav ul li.nav-link {
+    padding: 10px 0;
+  }
+
+  .myHeader .headerLogo .emailCard {
+    display: none;
+  }
+
+  .myHeader .headerOne {
+    background: none;
+  }
+
+  .myHeader .headerOne .myNav ul .SubMenu .megaMenu {
+    padding: 20px !important;
+    margin: 10px 0 0 0;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    position: static;
+    transition: none 0s ease 0s;
+    background: #242424;
+  }
+
+  .myHeader .headerOne .myNav ul {
+    display: block;
+  }
+
+  .myNav {
+    padding: 40px 20px 20px;
+    visibility: hidden;
+    position: fixed;
+    top: 0px;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 999999;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+    display: block;
+    overflow: auto;
+  }
+
+  .myNav.active {
+    visibility: visible;
+    opacity: 1;
+    right: 0px;
+  }
+
+  .closeMe {
+    right: -10px;
+    position: absolute;
+    top: -30px;
+  }
+
+  .closeMe .hideMe {
+    border: none;
+    background: var(--main-color);
+    padding: 2px 10px;
+    border-radius: 5px;
+  }
+
+  .myHeader .headerOne .myNav ul .SubMenu .megaMenu {
+    padding: 20px !important;
+    margin: 10px 0 0 0;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    position: static;
+    transition: none 0s ease 0s;
+    background: #242424;
+  }
+
+  .myHeader .headerOne .myNav ul .SubMenu .megaMenu .col-md-2 {
+    margin: 0 0 20px 0;
+  }
+
+  .myHeader .headerOne .myNav ul .SubMenu .megaMenu h2 {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .myHeader .headerOne .myNav ul li.nav-link > a {
+    font-size: 21px;
+    display: block;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .myHeader .headerOne .myNav ul .SubMenu .megaMenu ul li a {
+    padding: 5px 0px !important;
+    display: block;
+    color: #fff;
+    border-bottom: 1px dashed var(--main-color);
+  }
+
+  .myHeader .headerOne .myNav ul a {
+  }
+  .gridRec {
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .myFooter .wigetGrid {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .contactUs .myHeading h2{text-align: center;}
+  .getIn .getCard{border-right: none;border-bottom: 2px solid var(--main-color);padding: 0 0 15px 0;}
+  .getIn{padding: 25px;}
+  .contactUs{
+    padding: 25px 0;
+}
+  .getIn .getinGrid{grid-template-columns: repeat(1,2fr);gap: 25px;}
+  .aboutHos .abiutImg figure img{
+    height: 201px;
+}
+  .ourServices{
+    padding: 3em 25px 3em;
+}
+  .ourLeader{padding: 25px;}
+  .aboutHos {padding: 3em 25px 3em;}
+  .visionMission {padding: 2em 25px 0em;}
+  .ourServices .serviceGrid{grid-template-columns: repeat(1, 2fr);}
+  .ourLeader .ourCard figure img{
+    height: 400px;
+}
+  .ourLeader .teamGrid{grid-template-columns: repeat(1,  2fr);}
+  .visionMission .visionGrid{
+    grid-template-columns: repeat(1, 2fr);
+    padding: 10px 0 0 0;
+}
+
+  .projectGallery .photoGallery .imgCard figure a img{height: 180px;}
+  .projectGallery .photoGallery{
+    grid-template-columns: repeat(3, 2fr);
+}
+  .myHeadingTwo {
+    padding: 0 25px;
+  }
+  .ourSpecialist .ourText {
+    padding: 30px 0;
+  }
+  .whoWe .whoText {
+    margin: 50px 0 0 0;
+  }
+  .gridRec {
+    grid-template-columns: repeat(1, 2fr);
+    padding: 0 25px;
+  }
+  .whoWe .whoImg {
+    margin: 25px 0 0 0;
+  }
+  .subFooter .subFoot ul {
+  }
+  .mainSlider .sliderText h1 span {
+    font-size: 20px;
+    line-height: 5px;
+  }
+  .mainSlider .sliderText h1 {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .mainSlider .sliderText {
+    width: 67%;
+    padding: 29px 15px;
+  }
+  .whyChoose .whyGrid {
+    grid-template-columns: repeat(1, 2fr);
+    padding: 0px 25px;
+  }
+  .keepSec .keepGrid {
+    grid-template-columns: repeat(1, 2fr);
+  }
+  .subFooter .subFoot {
+    display: block;
+    padding: 13px 25px;
+  }
+  .lionEye .researchGrid {
+    grid-template-columns: repeat(1, 2fr);
+    padding: 0 25px;
+  }
+  .myFooter .wigetGrid {
+    grid-template-columns: repeat(1, 2fr);
+    padding: 0px 25px;
+  }
+  .myHeader .headerLogo {
+    padding: 10px 15px;
+  }
+
+  .barText {
+    display: none;
+  }
+
+  .topBar .myAccount {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .topBar .myAccount ul li a {
+    padding: 0px 10px;
+  }
+  .topBar .myAccount ul li a i {
+    font-size: 15px;
+  }
+
+  .topBar .myAccount ul li {
+    width: max-content;
+    padding: 0px;
+  }
+  .ourText{
+    margin: 50px 0 0 0;
+}
+}
+
+@media only screen and (max-width: 575px) {
+  .ourServices  .serviceCard .servHeading {
+    margin: 12px 0 0 0;
+}
+  .ourServices .serviceCard p{
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0px;
+}
+  .ourServices .serviceCard {
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.projectGallery .photoGallery {
+    grid-template-columns: repeat(1, 2fr);}
+  .ourText p{padding: 0;}
+  .whoWe .contactBtn{
+    margin: 15px 0 0 0;
+}
+    .recepTion{
+    padding: 3em 0px;
+}
+    .mainSlider .mySlide figure img{height: 400px;}
+  .clientSay {
+    padding: 3em 0px;
+  }
+  .whyChoose {
+    padding: 3em 0;
+  }
+  .subFooter .subFoot {
+    text-align: center;
+  }
+  .myFooter .logoWith h3 {
+    padding: 0 0 10px;
+  }
+  .myHeadingTwo p {
+    width: 85%;
+  }
+  .whoWe .whoText p {
+    padding: 0px;
+  }
+  .lionEye .lionHeading p {
+    width: 85%;
+  }
+  .clientSay .clientSlide {
+    padding: 0 25px;
+  }
+  .ourSlide {
+  }
+  .ourSpecialist .ourText {
+    padding: 0 25px 30px 25px;
+  }
+  .ourSpecialist {
+  padding: 3em 0px;
+  }
+  .whoWe {
+    padding: 3em 25px 1em;
+  }
+}
+@media only screen and (max-width: 479px) {
+}
+                      

@@ -1,0 +1,292 @@
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .header_menu .myNav ul li.dropDown a {position: relative;}
+  .header_menu .myNav ul li.dropDown:hover .megaMenu {
+  top: 100%;
+  visibility: visible;
+  opacity: 1;
+  }
+  .openMenu {
+    display: none;
+  }
+  .header_menu .myNav ul li.dropDown:hover .megaMenu {
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+ .aboutHos::before {
+    content: url(../images/bef.png);
+    position: absolute;
+    top: 0;
+    left: 10px;}
+  .whoWe::before {
+    content: url("../images/bef.png");
+    position: absolute;
+    top: 0;
+    left: 10px;
+  }
+  .direcTor:before {
+    content: url("../images/bef.png");
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .header_menu .header_ask {
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .header_menu .myNav{
+    transition: 0.3s;
+    display: unset;
+    top: 0;
+    padding: 40px 0 0 0;
+    visibility: hidden;
+    left: -100%;
+    position: fixed;
+    opacity: 0;
+    background: black;
+    height: 100%;
+    z-index: 999;
+ }
+ .location_attarva {
+     display: none;
+   }
+       .header_menu .myNav.active {
+             visibility: visible;
+             left: 0;
+             opacity: 1;
+         }
+     
+         .header_menu .myNav .closeMe {
+         display: flex;
+         z-index: 9999;
+         width: fit-content;
+         top: 10px;
+         right: 10px;
+         position: absolute;
+         }
+         .header_menu .myNav .closeMe button {
+             padding: unset;
+             border-radius: 35px;
+             max-height: 30px;
+             color: #fff;
+             background-color: #d3d3d3;
+             border: none;
+             width: 30px;
+         }
+ 
+       .header_menu .myNav .closeMe button img {
+         width: 12px;
+       }
+         .header_menu nav ul {
+         display: block;
+         text-align: center;
+         }
+         .header_menu nav ul li {
+             padding: 10px 0;
+             color: black;
+         }
+         .header_menu nav ul li a {
+             
+color: white;
+         }  
+  
+  .whoWe .ourText p{padding: 0;}
+  .ourLeader .teamGrid{
+    grid-template-columns: repeat(2, 2fr);
+}
+
+
+  .gridRec {
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .contactUs .myHeading h2{text-align: center;}
+  .getIn .getCard{border-right: none;border-bottom: 2px solid var(--main-color);padding: 0 0 15px 0;}
+  .getIn{padding: 25px;}
+  .contactUs{
+    padding: 25px 0;
+}
+  .getIn .getinGrid{grid-template-columns: repeat(1,2fr);gap: 25px;}
+  .aboutHos .abiutImg figure img{
+    height: 201px;
+}
+  .ourServices{
+    padding: 3em 25px 3em;
+}
+  .ourLeader{padding: 25px;}
+  .aboutHos {padding: 3em 25px 3em;}
+  .visionMission {padding: 2em 25px 0em;}
+  .ourServices .serviceGrid{grid-template-columns: repeat(1, 2fr);}
+  .ourLeader .ourCard figure img{
+    height: 400px;
+}
+  .ourLeader .teamGrid{grid-template-columns: repeat(1,  2fr);}
+  .visionMission .visionGrid{
+    grid-template-columns: repeat(1, 2fr);
+    padding: 10px 0 0 0;
+}
+
+  .projectGallery .photoGallery .imgCard figure a img{height: 180px;}
+  .projectGallery .photoGallery{
+    grid-template-columns: repeat(3, 2fr);
+}
+  .myHeadingTwo {
+    padding: 0 25px;
+  }
+  .ourSpecialist .ourText {
+    padding: 30px 0;
+  }
+  .whoWe .whoText {
+    margin: 50px 0 0 0;
+  }
+  .gridRec {
+    grid-template-columns: repeat(1, 2fr);
+    padding: 0 25px;
+  }
+  .whoWe .whoImg {
+    margin: 25px 0 0 0;
+  }
+  .subFooter .subFoot ul {
+  }
+  .mainSlider .sliderText h1 span {
+    font-size: 20px;
+    line-height: 5px;
+  }
+  .mainSlider .sliderText h1 {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .mainSlider .sliderText {
+    width: 67%;
+    padding: 29px 15px;
+  }
+  .whyChoose .whyGrid {
+    grid-template-columns: repeat(1, 2fr);
+    padding: 0px 25px;
+  }
+  .keepSec .keepGrid {
+    grid-template-columns: repeat(1, 2fr);
+  }
+  .subFooter .subFoot {
+    display: block;
+    padding: 13px 25px;
+  }
+  .lionEye .researchGrid {
+    grid-template-columns: repeat(1, 2fr);
+    padding: 0 25px;
+  }
+  .myFooter .wigetGrid {
+    grid-template-columns: repeat(1, 2fr);
+    padding: 0px 25px;
+  }
+  .myHeader .headerLogo {
+    padding: 10px 15px;
+  }
+
+  .barText {
+    display: none;
+  }
+
+  .topBar .myAccount {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .topBar .myAccount ul li a {
+    padding: 0px 10px;
+  }
+  .topBar .myAccount ul li a i {
+    font-size: 15px;
+  }
+
+  .topBar .myAccount ul li {
+    width: max-content;
+    padding: 0px;
+  }
+  .ourText{
+    margin: 50px 0 0 0;
+}
+}
+
+@media only screen and (max-width: 575px) {
+  .footer_wrap {
+    
+padding: 30px 0 0;
+  }
+  .ourServices  .serviceCard .servHeading {
+    margin: 12px 0 0 0;
+}
+  .ourServices .serviceCard p{
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0px;
+}
+  .ourServices .serviceCard {
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.projectGallery .photoGallery {
+    grid-template-columns: repeat(1, 2fr);}
+  .ourText p{padding: 0;}
+  .whoWe .contactBtn{
+    margin: 15px 0 0 0;
+}
+    .recepTion{
+    padding: 3em 0px;
+}
+    .mainSlider .mySlide figure img{height: 400px;}
+  .clientSay {
+    padding: 3em 0px;
+  }
+  .whyChoose {
+    padding: 3em 0;
+  }
+  .subFooter .subFoot {
+    text-align: center;
+  }
+  .myFooter .logoWith h3 {
+    padding: 0 0 10px;
+  }
+  .myHeadingTwo p {
+    width: 85%;
+  }
+  .whoWe .whoText p {
+    padding: 0px;
+  }
+  .lionEye .lionHeading p {
+    width: 85%;
+  }
+  .clientSay .clientSlide {
+    padding: 0 25px;
+  }
+  .ourSlide {
+  }
+  .ourSpecialist .ourText {
+    padding: 0 25px 30px 25px;
+  }
+  .ourSpecialist {
+  padding: 3em 0px;
+  }
+  .whoWe {
+    padding: 3em 25px 1em;
+  }
+}
+@media only screen and (max-width: 479px) {
+}
+                      

@@ -1,0 +1,16 @@
+<svg id="l3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="ic_browser_windows" data-name="ic_browser windows" d="M7,50a7,7,0,0,1-7-7V7A1,1,0,0,1,1,6H37a7,7,0,0,1,7,7V49a1,1,0,0,1-1,1ZM48,10a8,8,0,0,0-8-8H8a8.462,8.462,0,0,1,6-2H40A10,10,0,0,1,50,10V36a8.453,8.453,0,0,1-2,6Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_3" data-name="Group 3">
+    <path id="ic_browser_windows-2" data-name="ic_browser windows" d="M7,50a7,7,0,0,1-7-7V7A1,1,0,0,1,1,6H37a7,7,0,0,1,7,7V49a1,1,0,0,1-1,1ZM48,10a8,8,0,0,0-8-8H8a8.462,8.462,0,0,1,6-2H40A10,10,0,0,1,50,10V36a8.453,8.453,0,0,1-2,6Z" fill="none"/>
+    <g id="Mask_Group_3" data-name="Mask Group 3" clip-path="url(#clip-path)">
+      <g id="_3._Light_80_" data-name="3. Light 80%" transform="translate(0 0)">
+        <rect id="_3._Color_3._Light_3._Light_80_background" data-name="3. Color / 3. Light / 3. Light 80% background" width="50" height="50" fill="none"/>
+        <rect id="Placeholder" width="50" height="50" fill="rgba(255,255,255,0.8)"/>
+      </g>
+    </g>
+  </g>
+</svg>

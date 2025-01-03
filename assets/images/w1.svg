@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="ic_fountain_pen" data-name="ic_fountain pen" d="M3,22c-1.658,0-3-.923-3-2.063s1.343-2.063,3-2.063h.612L.052,10.53a.516.516,0,0,1,.133-.617l10-9.624a1.291,1.291,0,0,1,1.627,0l10,9.624a.519.519,0,0,1,.135.617l-3.562,7.344H19c1.656,0,3,.924,3,2.063S20.657,22,19,22Z" transform="translate(0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="w1" transform="translate(0)">
+    <path id="ic_fountain_pen-2" data-name="ic_fountain pen" d="M3,22c-1.658,0-3-.923-3-2.063s1.343-2.063,3-2.063h.612L.052,10.53a.516.516,0,0,1,.133-.617l10-9.624a1.291,1.291,0,0,1,1.627,0l10,9.624a.519.519,0,0,1,.135.617l-3.562,7.344H19c1.656,0,3,.924,3,2.063S20.657,22,19,22Z" transform="translate(0)" fill="none"/>
+    <g id="Mask_Group_17" data-name="Mask Group 17" clip-path="url(#clip-path)">
+      <g id="_1._Green" data-name="1. Green" transform="translate(-6 0)">
+        <rect id="_3._Color_1._UI_1._Green_background" data-name="3. Color / 1. UI / 1. Green background" width="32" height="22" fill="none"/>
+        <path id="Green" d="M0,0H32V22H0Z" fill="#00529c"/>
+      </g>
+    </g>
+  </g>
+</svg>
